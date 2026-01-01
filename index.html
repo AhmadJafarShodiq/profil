@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmad Ja'far Shodiq | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="logo">AJS</div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <ul id="nav-menu">
+    <li><a href="#about">Tentang</a></li>
+    <li><a href="#skills">Skill</a></li>
+    <li><a href="#projects">Project</a></li>
+    <li>
+      <a href="https://github.com/AhmadJafarShodiq" target="_blank">GitHub</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <img src="images/profile.jpg" class="profile-img" alt="Profile">
+
+  <h1>Ahmad Jafar Shodiq</h1>
+  <p>Web & Mobile Developer</p>
+  <span>Laravel • Flutter • REST API • AI</span>
+
+  <div class="hero-btn">
+    <a class="primary" href="#projects">Lihat Project</a>
+    <a class="secondary" href="https://github.com/AhmadJafarShodiq" target="_blank">GitHub</a>
+    <a class="secondary" href="https://www.linkedin.com/in/ahmadjafarshodiq" target="_blank">LinkedIn</a>
+  </div>
+</header>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <h2>Tentang Saya</h2>
+
+  <div class="about-box">
+    <p class="about-text">
+      Saya adalah <b>Web & Mobile Developer</b> yang berfokus pada
+      pengembangan aplikasi modern menggunakan
+      <b>Laravel</b> dan <b>Flutter</b>.
+      Berpengalaman membangun <b>REST API</b>,
+      sistem absensi berbasis <b>Face Recognition</b>,
+      serta integrasi <b>AI</b>, <b>Kamera</b>, dan <b>GPS</b>.
+    </p>
+
+    <div class="about-highlights">
+      <div>💻 Web & Mobile Development</div>
+      <div>⚙️ REST API & Backend</div>
+      <div>📱 Flutter Mobile App</div>
+      <div>🧠 AI & Face Recognition</div>
+      <div>📍 GPS & Location Validation</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section dark" id="skills">
+  <h2>Tech Stack</h2>
+  <div class="skills">
+    <span>Laravel</span>
+    <span>Flutter</span>
+    <span>MySQL</span>
+    <span>REST API</span>
+    <span>AI</span>
+    <span>Git & GitHub</span>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section" id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Admin FaceReq -->
+    <div class="project-card">
+      <img src="images/adminfacereq.png" alt="Admin FaceReq">
+      <h3>Admin FaceReq</h3>
+      <p>
+        Dashboard admin untuk sistem absensi berbasis 
+        <b>Face Recognition</b> yang dibangun menggunakan 
+        <b>Laravel</b>. Sistem ini memungkinkan admin 
+        mengelola data pengguna, memantau kehadiran secara 
+        real-time, serta melakukan validasi absensi 
+        berdasarkan wajah dan lokasi pengguna.
+      </p>
+    </div>
+
+    <!-- Admin Yayasan -->
+    <div class="project-card">
+      <img src="images/adminyayasan.png" alt="Admin Yayasan">
+      <h3>Admin Yayasan</h3>
+      <p>
+        Sistem manajemen yayasan berbasis web yang dikembangkan
+        menggunakan <b>Laravel</b> dan <b>MySQL</b>. Aplikasi ini
+        mendukung pengelolaan data administrasi, konten,
+        serta informasi internal yayasan melalui panel admin
+        yang terstruktur dan mudah digunakan.
+      </p>
+    </div>
+
+    <!-- Website Yayasan -->
+    <div class="project-card">
+      <img src="images/yayasan.png" alt="Website Yayasan">
+      <h3>Website Yayasan</h3>
+      <p>
+        Website profil yayasan yang menampilkan informasi
+        publik seperti program, kegiatan, dan berita.
+        Terintegrasi dengan sistem backend admin sehingga
+        konten dapat dikelola secara dinamis dan efisien.
+      </p>
+    </div>
+
+    <!-- Mosquito Cam -->
+    <div class="project-card">
+      <img src="images/mos.jpg" alt="Mosquito Cam">
+      <h3>Mosquito Cam</h3>
+      <p>
+        Aplikasi mobile berbasis <b>Flutter</b> yang memanfaatkan
+        <b>kamera</b> dan teknologi <b>Artificial Intelligence</b>
+        untuk mendeteksi jenis nyamuk. Aplikasi ini bertujuan
+        mengidentifikasi potensi <b>penyakit</b> yang dapat
+        ditularkan, seperti <b>DBD</b> dan <b>malaria</b>,
+        sebagai bentuk penerapan AI di bidang kesehatan.
+      </p>
+    </div>
+
+    <!-- Face Recognition Mobile -->
+    <div class="project-card">
+      <img src="images/face.jpeg" alt="Face Recognition Mobile">
+      <h3>Face Recognition Mobile</h3>
+      <p>
+        Aplikasi mobile berbasis <b>Flutter</b> untuk sistem
+        absensi dengan teknologi <b>Face Recognition</b>.
+        Dilengkapi dengan validasi <b>AI</b> dan <b>lokasi GPS</b>
+        guna memastikan kehadiran pengguna dilakukan secara
+        akurat dan aman.
+      </p>
+    </div>
+
+    <!-- Monitoring System -->
+    <div class="project-card">
+      <img src="images/monitoring.jpeg" alt="Monitoring System">
+      <h3>Monitoring System</h3>
+      <p>
+        Sistem monitoring berbasis web untuk memantau
+        aktivitas pengguna dan data sistem secara
+        <b>real-time</b>. Dirancang untuk membantu pengawasan,
+        analisis data, serta pengambilan keputusan yang
+        lebih cepat dan efektif.
+      </p>
+    </div>
+
+    <!-- Sistem Surat -->
+    <div class="project-card">
+      <img src="images/surat.jpeg" alt="Sistem Surat">
+      <h3>Sistem Surat</h3>
+      <p>
+        Aplikasi pengelolaan <b>surat masuk dan surat keluar</b>
+        berbasis web yang mempermudah proses pencatatan,
+        pencarian, serta arsip dokumen secara digital
+        dengan sistem yang terorganisir.
+      </p>
+    </div>
+
+    <!-- Apotek Desktop -->
+    <div class="project-card">
+      <img src="images/apotikdekstop.png" alt="Apotek Desktop">
+      <h3>Apotek Desktop</h3>
+      <p>
+        Aplikasi desktop untuk manajemen apotek yang
+        mendukung proses <b>transaksi penjualan</b>,
+        pengelolaan <b>stok obat</b>, serta laporan
+        operasional harian secara terkomputerisasi.
+      </p>
+    </div>
+
+  </div>
+
+  <div style="text-align:center;margin-top:30px">
+    <a class="secondary" href="https://github.com/AhmadJafarShodiq" target="_blank">
+      Lihat Semua di GitHub →
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  © 2026 Ahmad Ja'far Shodiq • Web & Mobile Developer
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
